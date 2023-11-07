@@ -1,7 +1,7 @@
 /*
     Star Rush, a game by Eric Wang
     Spent Approximately 30+ hours including initial structure, algorithms, as well as debugging
-    As for the creative tilt, I dont know anymore, I'm tired, but I think hit 85-90% of the criteria
+    As for the creative tilt, I dont know anymore, I'm tired, but I think I hit 85-90% of the criteria
 */
 let config = {
     type: Phaser.AUTO,
