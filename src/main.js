@@ -16,12 +16,14 @@ let options = {
     platformSize: [60, 450],
     pHeightRange: [-8, 8],
     pHeightScale: 9,
-    pVertical: [0.1, 0.8],
+    pVertical: [0.5, 0.8],
     playerGravity: 850,
     jumpDist: 410,
     startPosition: 90,
-    maxJump: 2
+    maxJump: 2,
+    spikeProb: 25
 }
+
 
 let game = new Phaser.Game(config);
 
@@ -29,4 +31,4 @@ let game = new Phaser.Game(config);
 let borderUISize = game.config.height / 15
 let borderPadding = borderUISize / 3;
 
-let keyEnter, keySpace, keyEsc;
+let keyEnter, keySpace, keyEsc, cursor, time;
